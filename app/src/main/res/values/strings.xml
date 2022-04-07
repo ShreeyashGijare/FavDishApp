@@ -34,6 +34,9 @@
     <string name="errMsgSelectedDishCookingTime">Select Dish Cooking Time.</string>
     <string name="errMsgSelectedDishCookingDirections">Select Dish Cooking Instructions.</string>
     <string name="noDishesAddedYet">No Dishes Added Yet</string>
+
+    <string name="lblEstimateCookingTime">The approx time required to cook the dish is %1$s minutes.</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
