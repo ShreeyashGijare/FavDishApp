@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FavDish</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="SplashScreenTitle">FavDish</string>
+
+    <string name="addDish">Add Dish</string>
+
+    <string name="lblAddDish">ADD DISH</string>
+    <string name="imageContentDescription">Image</string>
+    <string name="lblTitle">Title</string>
+    <string name="lblType">Type</string>
+    <string name="lblCategory">Category</string>
+    <string name="lblIngredients">Ingredients</string>
+    <string name="lblCookingTimeInMinutes">Cooking Time In Minutes</string>
+    <string name="lblDirectionsToCook">Directions to Cook</string>
+
+    <string name="titleStringImageAction">select Image Action</string>
+    <string name="lblCamera">Camera</string>
+    <string name="lblGallery">Gallery</string>
+
+    <string name="titleSelectDishType">SELECT DISH TYPE</string>
+    <string name="titleSelectDishCategory">SELECT DISH CATEGORY</string>
+    <string name="titleSelectDishCookingTime">SELECT DISH COOKING TIME</string>
+
+    <string name="errMsgSelectedDishImage">Select Dish Image.</string>
+    <string name="errMsgSelectedDishTitle">Select Dish Title.</string>
+    <string name="errMsgSelectedDishType">Select Dish Type.</string>
+    <string name="errMsgSelectedDishCategory">Select Dish Category.</string>
+    <string name="errMsgSelectedDishIngredients">Select Dish Ingredients.</string>
+    <string name="errMsgSelectedDishCookingTime">Select Dish Cooking Time.</string>
+    <string name="errMsgSelectedDishCookingDirections">Select Dish Cooking Instructions.</string>
+    <string name="noDishesAddedYet">No Dishes Added Yet</string>
+</resources>
