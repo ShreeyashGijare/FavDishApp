@@ -3,7 +3,9 @@
     <string name="titleAllDishes">All Dishes</string>
     <string name="titleFavoriteDishes">Favorite</string>
     <string name="titleRandomDish">Random Dish</string>
+    <string name="titleDishDetails">Dish Details</string>
     <string name="SplashScreenTitle">FavDish</string>
+
 
     <string name="addDish">Add Dish</string>
 
@@ -32,4 +34,6 @@
     <string name="errMsgSelectedDishCookingTime">Select Dish Cooking Time.</string>
     <string name="errMsgSelectedDishCookingDirections">Select Dish Cooking Instructions.</string>
     <string name="noDishesAddedYet">No Dishes Added Yet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
