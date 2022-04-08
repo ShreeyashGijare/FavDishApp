@@ -6,9 +6,6 @@
     <string name="titleDishDetails">Dish Details</string>
     <string name="SplashScreenTitle">FavDish</string>
 
-
-    <string name="addDish">Add Dish</string>
-
     <string name="lblAddDish">ADD DISH</string>
     <string name="imageContentDescription">Image</string>
     <string name="lblTitle">Title</string>
@@ -40,6 +37,17 @@
 
     <string name="actionEditDish">EDIT DISH</string>
     <string name="actionDeleteDish">DELETE DISH</string>
+
+    <string name="editDish">Edit Dish</string>
+    <string name="addDish">Add Dish</string>
+    <string name="deleteDish">Delete Dish</string>
+    <string name="msgDeleteDishDialog">Are you sure you want to delete %1$s.</string>
+    <string name="lblYes">Yes</string>
+    <string name="lblNo">No</string>
+
+    <string name="lblBtnUpdate">UPDATE</string>
+    
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

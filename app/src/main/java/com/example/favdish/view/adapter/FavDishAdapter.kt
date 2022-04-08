@@ -1,12 +1,20 @@
 package com.example.favdish.view.adapter
 
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.favdish.R
 import com.example.favdish.databinding.ItemDishLayoutBinding
 import com.example.favdish.model.entities.FavDish
+import com.example.favdish.utils.Constants
+import com.example.favdish.view.activities.AddUpdateDishActivity
 import com.example.favdish.view.fragments.AllDishesFragment
 import com.example.favdish.view.fragments.FavoriteDishesFragment
 
@@ -17,6 +25,7 @@ class FavDishAdapter(private val fragment: Fragment): RecyclerView.Adapter<FavDi
     class ViewHolder(view: ItemDishLayoutBinding): RecyclerView.ViewHolder(view.root) {
         val ivDishImage = view.ivDishImage
         val tvDishTitle = view.tvDishTitle
+        val ibMore = view.ibMore
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -39,12 +48,38 @@ class FavDishAdapter(private val fragment: Fragment): RecyclerView.Adapter<FavDi
                 fragment.dishDetails(dish)
             }
         }
+
+        holder.ibMore.setOnClickListener {
+            val popup = PopupMenu(fragment.context, holder.ibMore)
+            popup.menuInflater.inflate(R.menu.menu_adapter, popup.menu)
+
+            popup.setOnMenuItemClickListener {
+                if (it.itemId == R.id.actionEditDish){
+                    val intent = Intent(fragment.requireActivity(), AddUpdateDishActivity::class.java)
+                    intent.putExtra(Constants.EXTRA_DISH_DETAILS, dish)
+                    fragment.requireActivity().startActivity(intent)
+
+                } else if (it.itemId == R.id.actionDeleteDish) {
+                    if (fragment is AllDishesFragment) {
+                        fragment.deleteDish(dish)
+                    }
+                }
+                true
+            }
+            popup.show()
+        }
+        if (fragment is AllDishesFragment){
+            holder.ibMore.visibility = View.VISIBLE
+        } else if (fragment is FavoriteDishesFragment) {
+            holder.ibMore.visibility = View.GONE
+        }
     }
 
     override fun getItemCount(): Int {
         return dishes.size
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     fun dishesList(list: List<FavDish>) {
         dishes = list
         notifyDataSetChanged()
