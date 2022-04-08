@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionEditDish"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="100"
+        android:title="@string/actionEditDish" />
+
+    <item
+        android:id="@+id/actionDeleteDish"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="101"
+        android:title="@string/actionDeleteDish" />
+
+</menu>

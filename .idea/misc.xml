@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_add.xml" value="0.161" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1575" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_baseline_gallery_24.xml" value="0.1575" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_favorite_selected.xml" value="0.161" />
@@ -24,6 +25,7 @@
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/item_custom_list.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/item_dish_layout.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/menu_adapter.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/menu_all_dishes.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.127" />
       </map>
