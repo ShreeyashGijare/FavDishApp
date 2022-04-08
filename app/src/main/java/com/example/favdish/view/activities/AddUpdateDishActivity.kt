@@ -118,25 +118,39 @@ class AddUpdateDishActivity : AppCompatActivity(), View.OnClickListener {
 
                     when {
                         TextUtils.isEmpty(mImagePath) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishImage), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishImage),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(title) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishTitle), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishTitle),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(type) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishType), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishType),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(category) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishCategory), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishCategory),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(ingredients) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishIngredients), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishIngredients),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(cookingTimeInMinutes) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishCookingTime), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishCookingTime),
+                                Toast.LENGTH_SHORT).show()
                         }
                         TextUtils.isEmpty(cookingDirection) -> {
-                            Toast.makeText(this@AddUpdateDishActivity, resources.getString(R.string.errMsgSelectedDishCookingDirections), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@AddUpdateDishActivity,
+                                resources.getString(R.string.errMsgSelectedDishCookingDirections),
+                                Toast.LENGTH_SHORT).show()
                         }
                         else -> {
                             val favDishDetails: FavDish = FavDish(
