@@ -50,7 +50,7 @@ data class AnalyzedInstruction(
 
 data class ExtendedIngredient(
     val aisle: String,
-    val amount: Int,
+    val amount: Float,
     val consistency: String,
     val id: Int,
     val image: String,
@@ -90,13 +90,13 @@ data class Measures(
 )
 
 data class Metric(
-    val amount: Int,
+    val amount: Float,
     val unitLong: String,
     val unitShort: String
 )
 
 data class Us(
-    val amount: Double,
+    val amount: Float,
     val unitLong: String,
     val unitShort: String
 )
