@@ -6,6 +6,7 @@
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_add.xml" value="0.161" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1575" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_baseline_gallery_24.xml" value="0.1575" />
+        <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.238" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_favorite_selected.xml" value="0.161" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_favorite_unselected.xml" value="0.161" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/drawable/ic_more.xml" value="0.161" />
@@ -16,6 +17,7 @@
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/dialog_custom_image_selection.xml" value="0.25271739130434784" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/dialog_custom_item.xml" value="0.25271739130434784" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/dialog_custom_list.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/dialog_custom_progress.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/fragment_all_dishes.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/fragment_dashboard.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/layout/fragment_dish_details.xml" value="0.259375" />
@@ -27,6 +29,7 @@
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/menu_adapter.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/menu_all_dishes.xml" value="0.259375" />
+        <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/menu/menu_share.xml" value="0.259375" />
         <entry key="..\:/Users/Acer/Desktop/study/Android/FavDish/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.127" />
       </map>
     </option>
